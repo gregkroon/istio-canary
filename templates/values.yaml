@@ -12,6 +12,6 @@ namespace: <+infra.namespace>
 
 frontend:
   title: Istio - Canary
-  loadBalancer: <+service.variables.loadBalancer>
+  loadBalancer: <+serviceVariables.loadBalancer>
   uiPath: <+service.variables.uiPath>
   image: us.gcr.io/sales-209522/continuous-requests:110
