@@ -1,7 +1,7 @@
-name: <+service.variables.name>
+name: <+serviceVariables.name>
 image: <+artifact.image>
-canaryName: <+service.variables.canaryName>
-stableName: <+service.variables.stableName>
+canaryName: <+serviceVariables.canaryName>
+stableName: <+serviceVariables.stableName>
 endpoint: color
 canaryEndpoint: color-canary
 stableEndpoint: color-stable
@@ -13,5 +13,5 @@ namespace: <+infra.namespace>
 frontend:
   title: Istio - Canary
   loadBalancer: <+serviceVariables.loadBalancer>
-  uiPath: <+service.variables.uiPath>
+  uiPath: <+serviceVariables.uiPath>
   image: us.gcr.io/sales-209522/continuous-requests:110
