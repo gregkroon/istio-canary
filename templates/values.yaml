@@ -7,7 +7,7 @@ canaryEndpoint: color-canary
 stableEndpoint: color-stable
 splitTraffic: false
 
-replicas: 6
+replicas: 8
 namespace: <+infra.namespace>
 
 frontend:
