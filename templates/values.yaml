@@ -5,9 +5,7 @@ stableName: <+serviceVariables.stableName>
 endpoint: color
 canaryEndpoint: color-canary
 stableEndpoint: color-stable
-splitTraffic: true
-canaryWeight: 100
-stableWeight: 0
+splitTraffic: false
 
 replicas: 8
 namespace: <+infra.namespace>
